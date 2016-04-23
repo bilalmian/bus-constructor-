@@ -9,8 +9,9 @@ prompt.get(['name', 'gender', 'grade', 'gpa', 'detentions', 'sleepingInClass', '
       for(i = 0; i < kids.name.length; i++){
         schoolbus.studentEntersBus(kids.name[i], kids.gender[i], kids.grade[i], kids.gpa[i], kids.detentions[i], kids.sleepingInClass[i], kids.catchPhrase[i])
         schoolbus.studentsOnTheBus[i].canStudentHaveFun();
-        schoolbus.busChatter();
+        
       }
+      schoolbus.busChatter();
 
   }else{
     console.log(error);
